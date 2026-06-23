@@ -1,0 +1,18 @@
+• How the web works: 
+  DNS, TCP/IP,
+  HTTP/1.1vs HTTP/2 
+• Client-server model, 
+  CDN basics, browser 
+  rendering pipeline 
+• URL anatomy, HTTP 
+  methods (GET, POST, 
+  PUT, DELETE) & status 
+  codes 
+• Comparing web 
+  technologies: static vs 
+  dynamic vs SPA 
+  approaches 
+• Introduction to 
+  browser DevTools 
+  (Network & Console 
+  tabs) 

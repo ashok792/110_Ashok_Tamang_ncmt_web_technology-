@@ -1,0 +1,22 @@
+/** Topic: HTTP/1.1 vs HTTP/2 **/
+
+Description:
+HTTP (Hypertext Transfer Protocol) is the language browsers use to request files from web servers.
+ This topic compares older HTTP/1.1 with modern HTTP/2.
+
+Key Exam Differences:
+
+1. Text vs Binary
+   • HTTP/1.1: Transmits requests/responses as plain text messages.
+   • HTTP/2: Encodes messages into a fast binary layer, making parsing much speedier.
+
+2. Connection Handling & Head-of-Line (HOL) Blocking
+   • HTTP/1.1: Can only load one file at a time over a single connection.
+      If one file is slow, it blocks everything behind it (HOL Blocking).
+   • HTTP/2: Uses Multiplexing. It can send and receive multiple requests/responses at
+      the exact same time over a single connection.
+
+3. Performance Enhancements in HTTP/2
+   • Header Compression: Uses HPACK to compress headers and save data overhead.
+   • Server Push: Allows the server to send necessary files (like styles or scripts)
+      to the client's cache before the browser explicitly requests them.

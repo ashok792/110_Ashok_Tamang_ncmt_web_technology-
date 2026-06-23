@@ -1,0 +1,28 @@
+Description:
+The step-by-step internal workflow a web browser takes to translate downloaded
+ source code (HTML, CSS, JS) into visible pixels on a computer screen.
+
+ The 6 Sequential Steps (Must remember for the exam):
+
+1. DOM (Document Object Model): 
+   The browser reads raw HTML code and parses it into a tree-structured node layout representing 
+   all page elements.
+   
+2. CSSOM (CSS Object Model): 
+   The browser processes CSS styles and builds a rules map of how elements must look.
+   
+3. Render Tree: 
+   Combines the DOM and CSSOM trees into a single tree containing only elements that are actually 
+   visible on screen (elements with `display: none` are left out).
+   
+4. Layout (Reflow): 
+   Calculates the precise visual dimensions, geometry, and coordinates of where each element fits
+    on the viewport.
+   
+5. Paint: 
+   Fills in visual details onto layers—including text characters, colors, background styles,
+    gradients, and images.
+   
+6. Composite: 
+   Arranges overlapping layers (like fixed headers or popups) in the correct z-index order onto
+    the final output display.

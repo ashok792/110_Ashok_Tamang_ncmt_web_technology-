@@ -1,0 +1,16 @@
+DNS (Domain Name System)
+   • What it is: The "phonebook of the internet."
+   • Role: Translates human-readable domain names (like google.com) into machine-readable
+     IP addresses (like 142.250.190.46).
+   • Lookup Steps: Browser Cache -> ISP Resolver -> Root Server -> TLD Server (.com, .np) -> Authoritative Server (returns the final IP).
+
+
+   TCP/IP Protocol Suite
+   • IP (Internet Protocol): Handles addressing. It splits data into packages and routes 
+     them to the correct target IP address.
+   • TCP (Transmission Control Protocol): Handles reliability.
+     It guarantees all data packets arrive safely and in the correct order.
+   • TCP 3-Way Handshake: Connection process before data moves:
+     1. Client sends SYN (Synchronize)
+     2. Server replies with SYN-ACK (Synchronize-Acknowledge)
+     3. Client sends ACK (Acknowledge)

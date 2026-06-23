@@ -1,0 +1,22 @@
+Topic: HTTP Methods (CRUD Operations)
+
+Description:
+HTTP verbs indicate the explicit type of action a client wishes to perform on a targeted server
+ resource.
+
+The Core 4 Methods to Memorize:
+
+1. GET
+   • Purpose: Fetches or reads data from the server.
+   • Safety: Read-only and safe. It must never alter server database states.
+   • Data: Appends data straight within the visible URL path.
+
+2. POST
+   • Purpose: Sends user payload data to create a brand-new entry on the server.
+   • Data: Packs data securely inside the hidden HTTP request body (used for forms, user signups).
+
+3. PUT
+   • Purpose: Updates or replaces an entire pre-existing target resource with a brand-new data load.
+
+4. DELETE
+   • Purpose: Permanently removes a designated resource from the target server database.

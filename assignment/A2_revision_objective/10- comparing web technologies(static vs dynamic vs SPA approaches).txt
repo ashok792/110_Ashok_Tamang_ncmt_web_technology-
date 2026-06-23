@@ -1,0 +1,19 @@
+Topic: Comparing Web Technologies (Static vs Dynamic vs SPA)
+
+Description:
+A structural comparison of how web code is compiled, served, and executed.
+
+1. Static Approach
+   • Mechanics: Pre-built HTML/CSS/JS files sit passively on storage disks. The server forwards them down with no internal compilation.
+   • Pros: Lightning fast, highly secure, easy to distribute over CDNs.
+   • Cons: Static content. Difficult to handle user accounts or live data.
+
+2. Dynamic Approach (Server-Side Rendered - SSR)
+   • Mechanics: Server uses backend languages (PHP, Node.js) to connect to a live database, dynamically build a custom HTML page on the fly, and send it down.
+   • Pros: Ideal for SEO indexing, secure database access.
+   • Cons: Slow navigation since every click forces a full page refresh.
+
+3. Single Page Application (SPA) Approach
+   • Mechanics: Server sends an empty HTML shell paired with a massive JavaScript package (React, Vue). JavaScript runs locally in the client browser to dynamically render updates.
+   • Pros: Fluid UI transitions without page reloads; mimics an app experience.
+   • Cons: Large initial loading files, tricky to configure for solid SEO.

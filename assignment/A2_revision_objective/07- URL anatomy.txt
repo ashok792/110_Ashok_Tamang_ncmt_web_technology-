@@ -1,0 +1,13 @@
+Description:
+A standardized text address used by internet clients to identify and locate specific
+ web resources on the web.
+ Dissecting a complete URL Example:
+https://www.google.com:443/shop/items?id=10#reviews
+
+• Protocol/Scheme (https): Specifies the communication language rules.
+• Subdomain (www): Points to an organized subsection of the website.
+• Domain Name (example.com): The unique, human-readable name of the web server.
+• Port (443): The software gate entryway (Default: 80 for HTTP, 443 for HTTPS).
+• Path (/shop/items): The file path directory indicating which resource or page is being targeted on the server.
+• Query Parameter (?id=10): Dynamic key-value pairs used to pass custom variable parameters to the page.
+• Fragment/Anchor (#reviews): Points to an explicit element ID marker to jump straight to a section on the page.

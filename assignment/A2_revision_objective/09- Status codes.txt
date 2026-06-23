@@ -1,0 +1,25 @@
+Topic: HTTP Status Codes
+
+Description:
+Three-digit numerical response codes sent back by web servers indicating whether a client's request
+ succeeded, redirected, or crashed.
+
+Essential Exam Status Ranges:
+
+• 1xx (Informational): Request accepted, process continuing in background.
+
+• 2xx (Success): Action successfully completed.
+  - 200 OK: Standard successful fetch.
+  - 201 Created: New resource successfully made (often following a POST).
+
+• 3xx (Redirection): Client must perform additional routing actions.
+  - 301 Moved Permanently: Page URL has been updated permanently.
+
+• 4xx (Client Error): Problem lies with the client's sent request.
+  - 400 Bad Request: Server cannot process due to bad syntax.
+  - 401 Unauthorized: Requires user authentication login.
+  - 404 Not Found: Target resource cannot be found on server.
+
+• 5xx (Server Error): Valid request failed because the server crashed.
+  - 500 Internal Server Error: The generic web server error message.
+  - 503 Service Unavailable: Server down for maintenance or overloaded.

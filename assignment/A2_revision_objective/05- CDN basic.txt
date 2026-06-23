@@ -1,0 +1,17 @@
+Description: Content Delivery Network (CDN) Basics
+A caching technology used to drastically reduce the geographical delay (latency )
+of loading web assets across the globe.
+Key Exam Concepts:
+
+1. What is a CDN?
+   • A globally distributed network of proxy servers (called Edge Servers or PoPs).
+
+2. How it works:
+   • Instead of a user in Nepal fetching large images/videos from a core origin 
+     server located in the USA, a CDN clones and saves (caches) those static files on an 
+     edge server right in or near Nepal (e.g., Kathmandu or India).
+   • When the user loads the page, the file is delivered instantly from the nearest physical
+      location.
+
+3. Key Benefits:
+   • Lower Latency: Pages load much faster for international users.

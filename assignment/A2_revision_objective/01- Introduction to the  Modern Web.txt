@@ -1,0 +1,9 @@
+This chapter explains how the internet transmits data, how web browsers display pages,
+ and the different architectures used to build modern web applications.
+
+[Main Concepts Covered]
+• Network Protocols: DNS, TCP/IP, and the evolution of HTTP/1.1 to HTTP/2.
+• Delivery & Rendering: The client-server model, CDN speed boosts, and the browser rendering steps.
+• Web Rules: URL structure, HTTP methods, and status codes.
+• Web Approaches: Static sites, Dynamic sites, and Single Page Applications (SPAs).
+• Tooling: Using Browser DevTools (Console & Network tabs) to debug applications.

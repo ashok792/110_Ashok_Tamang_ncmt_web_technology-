@@ -1,0 +1,16 @@
+Description:
+The foundation of the World Wide Web, 
+built on a simple request-and-response relationship between two computing roles.
+
+Key Exam Concepts:
+
+1. The Client
+   • Definition: The device or application that requests a service.
+   • Example: Your web browser (Chrome, Firefox, Safari) running on a laptop or smartphone.
+   • Action: Triggers an HTTP request when a user clicks a link or submits a form.
+
+2. The Server
+   • Definition: A high-performance remote computer that stores web files and responds to clients.
+   • Example: Apache, Nginx, or Node.js backend servers hosting files.
+   • Action: Listens for incoming client requests, processes database queries, 
+     and replies back with an HTTP response containing resources (HTML, images, JSON data).

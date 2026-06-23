@@ -1,0 +1,17 @@
+Topic: Introduction to Browser DevTools (Network & Console Tabs)
+
+Description:
+Built-in troubleshooting suites included in web browsers to help programmers track errors and 
+performance flaws.
+
+The Two Critical Tabs for Web Tech:
+
+1. The Console Tab
+   • What it does: Displays code logs, script execution bugs, and structural alerts.
+   • Purpose: Tracks where JavaScript breaks, reads custom diagnostic notes printed with 
+   `console.log()`, and runs custom scripts on the live page environment.
+
+2. The Network Tab
+   • What it does: Logs every transaction connecting between the client and the internet web.
+   • Purpose: Monitors downloaded asset formats and sizes, views request/response headers, analyzes 
+   payload packages,and reads status codes to diagnose connection breakdowns.
